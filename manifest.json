@@ -1,0 +1,19 @@
+{
+    "name": "Eco Change",
+    "short_name": "EcoChange",
+    "display": "standalone",
+    "background_color": "#339F5E",
+    "theme_color": "#339F5E",
+    "orientation": "portrait-primary",
+    "lang": "en-US",
+    "description": "",
+    "start_url": "/splashscreen.html",
+    "scope": "/",
+    "icons": [
+        {
+            "src": "logo512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
