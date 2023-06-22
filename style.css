@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  background-image: url("fundo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow-x: hidden;
+  height: 100vh;
+  margin: 0;
+}
+
+#titleH1 {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 700 !important;
+  color: #ffffff;
+  text-align: center;
+}
+
+.signup-form {
+  font-family: "Montserrat", sans-serif;
+  width: 650px;
+  margin: 20px auto;
+  background: rgba(51, 159, 94, 0.5);
+  border-radius: 10px;
+}
+
+.form-header h1 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+/*---------------------------------------*/
+/* Form Body */
+/*---------------------------------------*/
+.form-body {
+  padding: 5px 40px;
+  color: rgb(0, 0, 0);
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.form-body .label-title {
+  color: #ffffff;
+  font-size: 14 px;
+  font-weight: bold;
+}
+
+.form-body .form-input {
+  font-size: 12px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 34px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #000000;
+  text-align: left;
+  border: 1px solid rgba(51, 159, 94);
+  border-radius: 10px;
+  background: white;
+  outline: none;
+}
+
+.horizontal-group .left {
+  float: left;
+  width: 49%;
+}
+
+.horizontal-group .right {
+  float: right;
+  width: 49%;
+}
+
+input[type="file"] {
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  color: white;
+}
+
+#range-label {
+  width: 15%;
+  padding: 5px;
+  background-color: #1bba93;
+  color: white;
+  border-radius: 5px;
+  font-size: 17px;
+  position: relative;
+  top: -8px;
+}
+
+::-webkit-input-placeholder {
+  color: #525252;
+}
+
+/*---------------------------------------*/
+/* Form Footer */
+/*---------------------------------------*/
+.form-footer {
+  clear: both;
+}
+/*---------------------------------------*/
+/* Form Footer */
+/*---------------------------------------*/
+.signup-form .form-footer {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px 40px;
+  text-align: center;
+  border-top: 1px solid #cccccc;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(51, 159, 94);
+  font-size: 17px;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #169c7b;
+  color: white;
+}
+
+.btnlogin {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  font-size: 17px;
+  border: 2px solid rgba(51, 159, 94);
+  border-radius: 10px;
+  color: rgba(51, 159, 94);
+  cursor: pointer;
+}
+
+.form-footer p {
+  margin-bottom: 5px;
+  color: white;
+}
+
+#logoGoogle {
+  margin: auto;
+  max-width: 50px;
+  height: auto;
+}
+
+/* Estilos para telas menores, como dispositivos móveis */
+@media (max-width: 767px) {
+  .signup-form {
+    width: 90%; /* Ajuste a largura como preferir */
+    margin: 30px auto;
+    padding: 0 10px; /* Adiciona padding para criar margens laterais */
+  }
+}
+
+/* Estilos para telas ainda menores, como dispositivos móveis com largura muito reduzida */
+@media (max-width: 480px) {
+  .signup-form {
+    width: 100%; /* Ajuste a largura como preferir */
+    margin: 20px auto; /* Ajuste a margem superior e inferior conforme necessário */
+    padding: 10px; /* Adiciona padding para criar margens laterais */
+  }
+}
+
+.horizontal-group .left,
+.horizontal-group .right {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .horizontal-group::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@media (max-width: 767px) {
+  .btnlogin {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .form-footer p {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .horizontal-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .horizontal-group .left,
+  .horizontal-group .right {
+    width: 100%;
+  }
+
+  .horizontal-group .right {
+    margin-top: 10px; /* Adicione a margem superior desejada entre os elementos */
+  }
+  .form-footer .btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .form-footer .btn {
+    width: 100%;
+    margin: 0;
+  }
+  #logoGoogle {
+    display: block;
+    margin: 10px auto;
+    max-width: 50px;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .horizontal-group {
+    display: flex;
+    flex-direction: row;
+  }
+  .horizontal-group .left,
+  .horizontal-group .right {
+    width: 49%;
+  }
+
+  .horizontal-group .left {
+    margin-right: 10px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: rgba(51, 159, 94);
+}

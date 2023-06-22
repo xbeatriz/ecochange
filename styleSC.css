@@ -1,0 +1,30 @@
+body {
+  background-color: rgba(51, 159, 94);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+@media (max-width: 500px) {
+  #logo_eco {
+    width: 75%; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 300px; /* Espaço entre os logotipos */
+  }
+
+  #logo_GC {
+    width: 30%; /* Ajuste o tamanho conforme necessário */
+  }
+}
+
+@media (min-width: 500px) {
+  #logo_eco {
+    width: 30%; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 300px; /* Espaço entre os logotipos */
+  }
+
+  #logo_GC {
+    width: 10%; /* Ajuste o tamanho conforme necessário */
+  }
+}

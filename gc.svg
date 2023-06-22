@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 578.56 377.54">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: BespokeStencilVariable-Bold, 'Bespoke Stencil Variable';
+        font-variation-settings: 'wght' 700;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+        font-size: 115px;
+      }
+
+      .cls-2 {
+        font-family: Montserrat-Regular, Montserrat;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: .07em;
+      }
+
+      .cls-5 {
+        letter-spacing: .07em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada 1">
+    <text class="cls-1" transform="translate(0 253.18)"><tspan class="cls-5"><tspan x="0" y="0">&lt;GREEN&gt; </tspan></tspan><tspan class="cls-5" x="0" y="94">&lt;</tspan><tspan class="cls-4" x="60.95" y="94">C</tspan><tspan class="cls-5" x="143.63" y="94">ODE/&gt;</tspan></text>
+    <text class="cls-2" transform="translate(207.39 97.75)"><tspan class="cls-3" x="0" y="0">b</tspan><tspan class="cls-6" x="76.24" y="0">y</tspan><tspan x="139.49" y="0">:</tspan></text>
+  </g>
+</svg>

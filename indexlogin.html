@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#339F5E">
+    <title>Eco Change - SC</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="sw.js"></script>
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="logo512.png">
+</head>
+
+<body>
+    <script type="module" src="index.js"></script>
+    <div class="signup-form">
+        <!-- form header -->
+        <div class="form-header">
+            <h1>Bem-Vindo!</h1>
+        </div>
+
+        <!-- form body -->
+        <div class="form-body">
+
+            <div class="form-group">
+                <label for="email" class="label-title">Email</label>
+                <input type="email" id="email" class="form-input" placeholder="enter your email" autocomplete="email">
+            </div>
+
+            <!-- Password and confirm password -->
+            <div class="form group">
+
+                <div class="form-group left">
+                    <label for="password" class="label-title">Password</label>
+                    <input type="password" id="password" class="form-input" placeholder="enter your password"
+                        autocomplete="current-password">
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- form footer -->
+        <div class="form-footer">
+            <button type="submit" class="btn" onclick="logIn()">Iniciar Sessão</button>
+            <p>Ou iniciar sessão com</p>
+            <img id="logoGoogle" onclick="logInGoogle()" src="logo_google.svg">
+            <p>Ainda não tens conta?</p>
+            <button type="" class="btnlogin"><a href='index.html'>Criar conta</a></button>
+        </div>
+    </div>
+</body>
+
+</html>

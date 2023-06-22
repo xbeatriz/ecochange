@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#339F5E">
+    <title>Eco Change - SC</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="sw.js"></script> -->
+    <!-- <link rel="manifest" href="manifest.json"> -->
+    <!-- <link rel="apple-touch-icon" href="logo512.png"> -->
+</head>
+
+<body>
+    <div class="signup-form">
+        <!-- form header -->
+        <div class="form-header">
+            <h1>Bem-Vindo!</h1>
+        </div>
+
+        <!-- form body -->
+        <div class="form-body">
+            <!-- Firstname and Lastname -->
+            <div class="horizontal-group">
+                <div class="form-group left">
+                    <label for="firstname" class="label-title">Nome</label>
+                    <input type="text" id="firstname" class="form-input" placeholder="enter your first name"
+                        autocomplete="given-name" />
+                </div>
+                <div class="form-group right">
+                    <label for="lastname" class="label-title">Apelido</label>
+                    <input type="text" id="lastname" class="form-input" placeholder="enter your last name"
+                        autocomplete="family-name" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email" class="label-title">Email</label>
+                <input type="email" id="email" class="form-input" placeholder="enter your email" autocomplete="email">
+            </div>
+
+            <!-- Password and confirm password -->
+            <div class="form group">
+
+                <div class="form-group left">
+                    <label for="password" class="label-title">Password</label>
+                    <input type="password" id="password" class="form-input" placeholder="enter your password"
+                        autocomplete="new-password">
+                </div>
+            </div>
+
+            <!-- Profile picture and Age -->
+            <div class="horizontal-group">
+
+                <div class="form-group left">
+                    <label for="choose-file" class="label-title">Foto de perfil</label>
+                    <input type="file" id="choose-file">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- form footer -->
+        <div class="form-footer">
+            <button class="btn" onclick="register()">Criar conta</button>
+            <p>Ou cria conta com</p>
+            <img onclick="logInGoogle()" id="logoGoogle" src="logo_google.svg">
+            <p>Já tens conta?</p>
+            <button type="" class="btnlogin"><a href='indexlogin.html'>Iniciar Sessão</a></button>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>

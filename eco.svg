@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 591.01 186.09">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 7.94px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-family: BespokeStencilVariable-Regular, 'Bespoke Stencil Variable';
+        font-size: 82.36px;
+        font-variation-settings: 'wght' 400;
+      }
+    </style>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada 1">
+    <g>
+      <g>
+        <path class="cls-2" d="m146.59,10.39c-17.78.13-34.4-12.76-66.28-2.37,0,0-29.22,10.6-41.79,53.16,0,0,43.73,11.21,65.51-.64,28.97-13.65,42.45-50.14,42.56-50.15Z"/>
+        <path class="cls-2" d="m115.78,25.46s-66.34,6.76-93.83,57.42"/>
+        <g>
+          <path class="cls-2" d="m3.97,107.54c9,15.33,6.15,36.17,31.09,58.58,0,0,23.79,20,66.94,9.61,0,0-12.16-43.47-33.32-56.41-26.3-18.26-64.65-11.69-64.71-11.78Z"/>
+          <path class="cls-2" d="m32.43,126.68s39.02,54.07,96.64,52.55"/>
+        </g>
+        <g>
+          <path class="cls-2" d="m163.39,182.12c8.78-15.46,28.24-23.41,35.19-56.21,0,0,5.43-30.6-25.14-62.78,0,0-31.57,32.27-32.2,57.06-2.66,31.91,22.2,61.83,22.16,61.93Z"/>
+          <path class="cls-2" d="m165.74,147.89s27.32-60.83-2.82-109.97"/>
+        </g>
+      </g>
+      <text class="cls-3" transform="translate(251.2 78.2)"><tspan x="0" y="0">E</tspan><tspan class="cls-1" x="47.52" y="0">C</tspan><tspan x="100.4" y="0">O</tspan><tspan x="0" y="82.36">CHANGE</tspan></text>
+    </g>
+  </g>
+</svg>
